@@ -1,0 +1,7 @@
+<!--
+<img [src]="quadradoVazio" />
+<img [src]="quadradoVazio" />
+<img [src]="quadradoVazio" />
+-->
+
+<img *ngFor="let quadrado of quadrados" [src]="quadrado.exibeQuadrado()" />
